@@ -1,0 +1,74 @@
+.conteiner{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+  max-width: 1440px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+}
+
+.logo{
+  padding: 20px 18px ;
+  font-size: 0.815rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  animation-name: logo;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+  0%{color: red;}
+  100%{color: greenyellow;}
+  
+}
+
+.nav{
+  position: relative;
+  padding-right: 20px;
+
+   
+
+}
+
+nav{
+  display: flex;
+  gap: 31px;
+  
+}
+.navtxt{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646566;
+  font-size: 0.815rem;
+  padding-top: 20px;
+  
+
+}
+.navtxthome{font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  font-size: 0.815rem;
+  padding-top: 20px;
+
+}
+.navtxt:hover{
+  text-decoration: underline;
+  text-decoration-color: pink;
+  text-decoration-thickness:3px ;
+}
+.navtxthome:hover{
+  text-decoration: underline;
+  text-decoration-color: pink;
+  text-decoration-thickness:3px ;
+
+}
