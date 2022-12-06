@@ -10,7 +10,8 @@ header{
   position: fixed;
   display: flex;
   justify-content: space-between;
-  border: 2px solid red;
+  background-color: #F6F8F9;
+  /* border: 2px solid red; */
 }
 
 .logo{
@@ -35,16 +36,14 @@ header{
 .nav{
   position: relative;
   padding-right: 20px;
-
-   
-
 }
 
-nav{
+.ulnav{
   display: flex;
   gap: 31px;
-  
 }
+
+
 .navtxt{
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -71,4 +70,85 @@ nav{
   text-decoration-color: pink;
   text-decoration-thickness:3px ;
 
+}
+/* აქ დასრულდა ჰედერი */
+.section1{
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+  border: 2px solid black;
+}
+.sectdiv1{
+  display: flex;
+  flex-direction: column;
+  width: 58%;
+  height: 599px;
+  background-image: url("images/Image.png");
+}
+h1{
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 20.3% AUTO 0 16.6% ;
+}
+.psection2{
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding-left: 16.6%;
+  margin-top: 29.5px;
+
+}
+.psection3{
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  margin-top: 10px;
+  padding-left: 16.6%;
+  padding-right: 16.6%;
+}
+HR{
+  width: 66.6%;
+  border-bottom: 3PX SOLID #FFFFFF ;
+  margin-top: 40.5px;
+}
+.button1{
+  width: 16%;
+  height: 40px;
+  background-color: #FA6980;
+  margin-left: 16.6%;
+  margin-top: 30px;
+}
+.button1:hover{
+ transform: scale(1.3);
+ 
+}
+
+.button1txt{
+  font-size: 0.68rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+
+}
+/* აქ დასრულადა პირველი სექციის პირველი დივი */
+.sectdiv2{
+  width:42%;
+  display: flex;
+  flex-direction: column;
+}
+h2{
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #202124;
+  margin: 100px auto 0 16.6%;
+}
+.hr2{
+  width:63.3% ;
+  border-bottom: 2px solid #FFFFFF;
+  margin-left: 16.6%;
+  margin-top: 39.8px;
 }
