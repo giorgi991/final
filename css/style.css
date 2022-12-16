@@ -1,7 +1,9 @@
 .conteiner{
     max-width: 1440px;
     width: 100%;
+    height: 2400px;
     margin: 0 auto;
+    background-color: #F6F8F9;
 }
 
 header{
@@ -77,14 +79,14 @@ header{
   width: 100%;
   display: flex;
   padding-top: 50px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 .sectdiv1{
   display: flex;
   flex-direction: column;
   width: 58%;
   height: 599px;
-  background-image: url("images/Image.png");
+  background-image: url("pictures/mountine.png");
 }
 h1{
   font-size: 1.5rem;
@@ -185,4 +187,172 @@ h2{
   font-size: 1rem;
   color: #A6ADB4;
   margin-top: 10px;
+}
+/* აქ დასრულდა section1 */
+
+.section2{
+  width: 80.5%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+
+  /* border: 2px solid red; */
+}
+.trending{
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+  margin-left: 9.7%;
+
+}
+.card1{
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  
+}
+.cardtxt1{
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+ padding-left: 40px;
+ margin-top: 40px;
+ 
+}
+.cardtxt2{
+  font-size: 0.82rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #A6ADB4;
+  padding-left: 40px;
+  padding-bottom: 60px;
+  margin-top: 9px;
+
+}
+/* აქ დასრულდა სექცია3 */
+
+.section3{
+  width: 80.5%;
+  margin: 40px auto;
+  display: flex;
+  /* border: 2px solid red; */
+
+}
+.sectio3div1{
+  max-width: 760px;
+  width: 65.5%;
+ /* border: 2px solid greenyellow; */
+}
+.section3minidiv{
+
+  height: 430px;
+  background-image: url("pictures/bridg.png");
+  border-radius: 10px;
+ 
+}
+.section3minidiv2{
+  height: 430px;
+  background-image: url("pictures/forest.png");
+  margin-top: 40px;
+  border-radius: 10px;
+
+} 
+.section3txt1{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 40px;
+  margin-top: 232px;
+  
+}
+.section3txt2{
+  font-size: 1rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px 0 0 40px;
+}
+.section3txt3{
+  font-size: 1rem;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 40px;
+  margin-top: 10px;
+  
+
+}
+
+.section3div3{
+  width: 31%;
+  max-width: 360px;
+  margin-left: 40px;
+  /* border: 2px solid green; */
+}
+.card2{
+  width: 100%;
+  max-width: 360px;
+
+}
+.card2img{
+  width: 100%;
+  max-width: 360px;
+}
+.cardtxt2{
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #202124;
+  margin-top: 47px;
+ padding-left: 3px;
+ margin-bottom: -17px;
+}
+/* ა/////////////////////////////// */
+footer{
+  width: 100%;
+  max-width: 1443px;
+  background-color: #A6ADB4;
+  display: flex;
+  /* border: 2px solid red; */
+}
+.footerdiv1{
+  margin: 53px auto 53px 142px;
+  width: 26.5%;
+  max-width: 378.2px;
+  display: flex;
+  gap: 60px;
+  /* border: 2px solid blue; */
+}
+.logo2{
+  
+  animation-name: logo2;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo2 {
+  0%{transform: scale(100%);}
+  50%{transform: scale(200%);}
+  100%{transform: scale(100%);}
+  0%{color: red;}
+  100%{color: greenyellow;}
+}
+
+.ulfooter{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #CBD0D3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.social{
+ margin: 55px 135.8px 129px auto;
+  display: flex;
+  gap: 32px;
+  /* border: 2px solid red; */
 }
