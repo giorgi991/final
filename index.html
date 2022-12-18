@@ -1,167 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/phone.css">
+    <link rel="stylesheet" href="css/tablet.css">
     <link rel="icon" href="https://www.kindpng.com/picc/m/108-1084406_location-icon-location-icon-png-transparent-png.png">
     <script src="https://kit.fontawesome.com/2c901e3bf3.js" crossorigin="anonymous"></script>
+
     <title>ფინალური</title>
+
 </head>
 
 <body>
     <div class="conteiner">
 
-        <header>
-            <p class="logo">LOGO</p>
-               
-                <nav class="nav">
-                  <ul class="ulnav">
-                    <a href="index.html"> <li class="navtxthome">HOME</li></a>
-                    <a href="contact.html"> <li class="navtxt">WORLD NEWS</li></a>
-                    <a href="#"><li class="navtxt">PHOTOS</li></a>
-                   <a href="#"> <li class="navtxt">CONTACT</li></a>
-                  </ul>
-                </nav>
-              
-        
-        </header>
-        
+        <header class="header">
 
+            <a href="index.html"><img class="logo" src="image/logo.png" alt="logo"></a>
+
+            <nav class="headnav">
+                <ul class="headmenu">
+                    <li class="home"><a href="index.html" class="active">HOME</a></li>
+                    <li class="world_news"><a href="contact.html">WORLD NEWS</a></li>
+                    <li class="photos"><a href="index.html">PHOTOS</a></li>
+                    <li class="contact"><a href="index.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="burger"><i class="fa-solid fa-list"></i>
+            </div>
+        </header>
+
+<!-- /////////////////////////////// -->
         <section class="section1">
 
-            <div class="sectdiv1">
-               <h1>WORLD NEWS</h1>
-                <HR></HR>
-               <P class="psection2">Amazing places in America to visit.</P>
-               <p class="psection3">For some reason — this country, this city, this neighborhood, this particular street — 
-                 is the place you are living a majority of your life in.</p>
-                <button class="button1">
-                    <a href="https://www.busytourist.com/most-beautiful-places-in-the-us/" target="_blank"><p class="button1txt">LEARN MORE</p></a> 
 
-                </button>
-
-            </div>
-            <div class="sectdiv2">
-                <h2>MORE NEWS</h2>
-                <hr class="hr2"></hr>
-                <div class="sectiondiv1">
-                    <p class="travel">TRAVEL</p>
-                    <p class="article">Article title</p>
-                    <p class="lorem">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat… </p>
-                   <p class="time"> <i class="fa-regular fa-clock"></i>  2 min ago </p>
-                </div>
-                <div class="sectiondiv1">
-                    <p class="travel">TECHNOLOGY</p>
-                    <p class="article">Article title</p>
-                    <p class="lorem">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat… </p>
-                   <p class="time"> <i class="fa-regular fa-clock"></i>  2 min ago </p>
-                </div>
+            <aside class="left">
                 
 
+                <div class="photodiv1">
 
-            </div>
+                    <div class="lefttext">
+
+                        <h2 class="newshead h2font">WORLD NEWS</h2>
+
+                        <h2 class="amazinghead">Amazing places in America to visit.</h2>
+
+                        <p class="text1">Name: For some reason — this country, this city, this neighborhood, this
+                            particular
+                            street — is the place you are living a majority of your life in..</p>
+
+                        <a href="https://www.nature.com/" target="_blank"><button class="morebutton">LEARN
+                                MORE</button>
+
+                        </a>
+
+
+                    </div>
+                </div>
+
+            </aside>
+
+
+            <aside class="right">
+               
+
+                <h2 class="morenews h2font">MORE NEWS</h2>
+
+                <div class="rightdiv">
+
+                    <div class="rightdiv1">
+
+                        <h3 class="travel h3font">TRAVEL</h3>
+                        <h3 class="articletitle h3font">Article title</h3>
+                        <p class="textlorem">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has
+                            appareat…
+                        </p>
+                        <p class="time">2 min ago</p>
+
+                    </div>
+
+                    <div class="rightdiv2 rightdiv1">
+
+                        <h3 class="TECHNOLOGY travel h3font">TECHNOLOGY</h3>
+                        <h3 class="articletitle h3font">Article title</h3>
+                        <p class="textlorem ">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has
+                            appareat…
+                        </p>
+                        <p class="time time2">2 min ago</p>
+                       
+                    </div>
+
+                </div>
+
+            </aside>
 
         </section>
-        
-        <h2 class="trending">TRENDING</h2>
 
+      <!-- //////////////////////////////////// -->
 
         <section class="section2">
 
-            <div class="card1">
-                <img src="images/cardimage1.png" alt="">
-                <p class="cardtxt1" >Dolore magna aliqua</p>
-                <p class="cardtxt2">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-            </div>
-        
-            <div class="card1">
-                <img src="images/umbrella.png" alt="">
-                 <p class="cardtxt1" >Dolore magna aliqua</p>
-                <p class="cardtxt2">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+            <h2 class="TRENDING h2font">TRENDING</h2>
+
+            <div class="card">
+
+                <div class="card1">
+                    <div class="picture1">
+                        <h3 class="picname h3font">Dolore magna aliqua</h3>
+                        <p class="pictext">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card1">
+                    <div class="picture2">
+                        <h3 class="picname h3font">Morbi eleifend a libero</h3>
+                        <p class="pictext">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card1 none">
+                    <div class="picture3">
+                        <h3 class="picname h3font">Morbi eleifend a libero</h3>
+                        <p class="pictext">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
+                        </p>
+
+                    </div>
+                </div>
+
             </div>
 
-            <div class="card1">
-                <img src="images/desert.png" alt="">
-                <p class="cardtxt1" >Dolore magna aliqua</p>
-                 <p class="cardtxt2">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-            </div>
         </section>
 
+   <!-- /////////////////////////////////////// -->
 
-        <section class="section3">
+        <section class="section3 section2">
 
-            <div class="sectio3div1">
+            <h2 class="HAPPENING h2font">HAPPENING NOW</h2>
 
-              <div class="section3minidiv">
-                <p class="section3txt2">CITY</p>
-               <p class="section3txt1">Large article title</p>  
-               <p class="section3txt3">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
+            <div class="picturediv">
 
-              </div> 
+                <div class="leftdiv">
 
-              <div class="section3minidiv2">
-                <p class="section3txt2">CITY</p>
-                <p class="section3txt1">Large article title</p>  
-                <p class="section3txt3">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
-              </div>
+                    <div class="imgcard foto1">
+                        <h3 class="imgcardtext h3font">CITY</h3>
+                        <h2 class="imgcardtext1 h2font">Large article title</h2>
+                        <p class="imgcardtext3">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto,
+                            vidit vituperatoribus
+                            duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
+                    </div>
 
+                    <div class="imgcard foto2">
+                        <h3 class="imgcardtext h3font">TRAVEL</h3>
+                        <h2 class="imgcardtext1 h2font">Large article title</h2>
+                        <p class="imgcardtext3">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto,
+                            vidit vituperatoribus
+                            duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="rightdivcards">
+                    
+
+                    <div class="rightcardimg">
+                        <div class="img11">
+                            <h3 class="rightcardtext h3font">Small title</h3>
+                        </div>
+                    </div>
+
+                    <div class="rightcardimg">
+                        <div class="img22">
+                            <h3 class="rightcardtext h3font">Small title</h3>
+                        </div>
+                    </div>
+
+                    <div class="rightcardimg nonepicture">
+
+                        <div class="img33">
+                            <h3 class="rightcardtext h3font">Small title</h3>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-        
 
-            <div class="section3div3">
-                <div class="card2">
-                    <img class="card2img" src="images/elepand.png" alt="">
-                     <p class="cardtxt2" >Small title</p>
-                   
-                </div>
-
-                <div class="card2">
-                    <img class="card2img" src="images/BIRD.png" alt="">
-                     <p class="cardtxt2" >Small title</p>
-                   
-                </div>
-
-                <div class="card2">
-                    <img class="card2img" src="images/road.png" alt="">
-                     <p class="cardtxt2" >Small title</p>
-                   
-                </div>
-                
-            </div>
         </section>
 
         <footer>
-            <div class="footerdiv1">
 
-              <p class="logo2" >LOGO</p>
-              <ul class="ulfooter">
-                <li>Home</li>
-                <li>Discovery</li>
-                <li>Photos</li>
-                <li>Contact</li>
-              </ul>
-              <ul class="ulfooter">
-                <li>About</li>
-                <li>Help</li>
-                <li>Terms</li>
-                <li>Guidlines</li>
-              </ul>
-              <ul class="ulfooter">
-                <li>Testimonials</li>
-                <li>Advertise</li>
-                <li>Integrations</li>
-                <li>Careers</li>
-              </ul>
-            </div>
+            <div class="footdiv">
 
-            <div class="social">
-                <a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://twitter.com/"target="_blank"><i class="fa-brands fa-twitter"></i></a>
-               <a href="https://www.facebook.com/"target="_blank"><i class="fa-brands fa-facebook"></i></a> 
-               <a href="google.com"target="_blank"><i class="fa-solid fa-earth-americas"></i></a> 
+                <p class="logo2" >LOGO</p>
+
+                <div class="footdiv1 ">
+
+
+                    <ul class="footerul none">
+                        <li class="footerli">Home</li>
+                        <li class="footerli">Discovery</li>
+                        <li class="footerli">Photos</li>
+                        <li class="footerli">Contact</li>
+                    </ul>
+                    <ul class="footeru2 none">
+                        <li class="footerli">About</li>
+                        <li class="footerli">Help</li>
+                        <li class="footerli">Terms</li>
+                        <li class="footerli">Guidlines</li>
+                    </ul>
+                    <ul class="footeru3 none">
+                        <li class="footerli">Testimonials</li>
+                        <li class="footerli">Advertise</li>
+                        <li class="footerli">Integrations</li>
+                        <li class="footerli">Careers</li>
+                    </ul>
+
+
+                </div>
+
+               
+
+                <div class="footicon">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://en.wikipedia.org/wiki/World" target="_blank"><i
+                            class="fa-solid fa-earth-asia"></i></a>
+                </div>
             </div>
 
         </footer>
@@ -171,13 +246,8 @@
 
 
 
-
-
-
-
     </div>
 
 </body>
-
 
 </html>
