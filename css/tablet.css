@@ -59,7 +59,7 @@
         width: 48%;
     }
 
-    /* სექცია 3 */
+    /* ////////////////// */
     .picturediv {
         flex-direction: column;
 
@@ -90,11 +90,8 @@
     }
 
 
-    /* world_news ახალი გვერდი  */
-
-    .sectionworld {
-        flex-direction: column;
-    }
+/* contact.html */
+   
 
     .leftphotos {
         width: 100%;
@@ -126,12 +123,7 @@
 }
 
 
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
+/* //////////// */
 
 @media screen and (max-width: 768px) and (min-width: 480px) {
     .none {
@@ -202,7 +194,7 @@
         width: 48%;
     }
 
-    /* სექცია 3 */
+    /* /////////////////// */
     .picturediv {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -231,19 +223,6 @@
         padding-top: 160px;
     }
 
-    .footicon {
-        padding-right: 30px;
-    }
-
-
-    /* world_news ახალი გვერდი  */
-
-    .sectionworld {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-    }
 
     .leftphotos {
         width: 100%;
@@ -273,6 +252,10 @@
     .ptexts2 {
         width: 100%;
         padding-top: 40px;
+    }
+
+    .footicon {
+        padding-right: 30px;
     }
    
 }
