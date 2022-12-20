@@ -204,6 +204,15 @@ li {
     margin-top: 30px;
     border-radius: 10px;
     cursor: pointer;
+   transition: .2s ease-in-out 0s;
+
+}
+
+.morebutton:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+
+    
 
 }
 
