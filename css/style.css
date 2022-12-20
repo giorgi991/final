@@ -87,28 +87,49 @@ li {
 }
 
 .home :hover::after {
+    content: '';
     display: block;
     width: 37px;
-    height: 2px;
-    background-color: red;
+    height: 4px;
+    background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 1s ease-out;
 
 
 }
 
 .world_news :hover::after {
+    content: '';
     display: block;
     width: 76px;
-    height: 2px;
-    background-color: red;
+    height: 4px;
+    background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 1s ease-out;
+    
+
+}
+.photos:hover::after {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 4px;
+    background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+    
 
 }
 
 
 .contact :hover::after {
+    content: '';
     display: block;
     width: 52px;
-    height: 2px;
-    background-color: red;
+    height: 4px;
+    background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 1s ease-out;
 
 
 }
@@ -507,9 +528,14 @@ footer {
 
 
 }
+.space{
+    width: 20%;
+}
 
 .footerli {
     padding-top: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CBD0D3;
 }
 
 
